@@ -94,5 +94,5 @@ const callFunction = async () => {
     });
     */
 }
-funcionAsync();
-callFunction();
+//funcionAsync();
+//callFunction();
