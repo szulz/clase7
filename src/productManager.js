@@ -83,6 +83,7 @@ const funcionAsync = async () => {
 
 const callFunction = async () => {
     await productManager.getProducts();
+    /*
     await productManager.getProductById(1);
     await productManager.deleteProduct(2);
     await productManager.updateProduct(3, {
@@ -91,7 +92,7 @@ const callFunction = async () => {
         description: 'nueva description',
         code: 85
     });
+    */
 }
-console.log('hola')
-//funcionAsync();
-//callFunction();
+funcionAsync();
+callFunction();
