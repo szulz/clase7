@@ -93,5 +93,5 @@ const callFunction = async () => {
     });
 }
 console.log('hola')
-funcionAsync();
-callFunction();
+//funcionAsync();
+//callFunction();
